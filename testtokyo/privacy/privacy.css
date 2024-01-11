@@ -1,0 +1,19 @@
+.box_ttl::before{
+  content: "";
+  display: inline-block;
+  margin-right: 8px;
+  width: 20px;
+  height: 1px;
+  background-color: #000000;
+  position: relative;
+  top: -8px;
+}
+
+.box_ttl{
+  font-size: 1.5rem;
+}
+
+.box_text{
+  padding-bottom: 26px;
+  margin-top: 19px;
+}

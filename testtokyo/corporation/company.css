@@ -1,0 +1,23 @@
+.body_contents {
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto 80px;
+}
+
+.main_sec {
+  /* max-width: 1505px; */
+  padding-top: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .body_contents {
+    max-width: 100%;
+    display: block;
+    /* justify-content: flex-start; */
+    margin: 0 auto 80px;
+  }
+  }
+
+

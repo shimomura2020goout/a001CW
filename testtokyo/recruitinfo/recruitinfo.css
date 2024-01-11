@@ -1,0 +1,25 @@
+.recruit_sec_box01 {
+  margin-top: 35px;
+  padding: 0 0 30px;
+}
+
+.recruit_sec_box01 dl {
+  display: flex;
+}
+
+.recruit_sec_box01 dt {
+  width: 25%;
+  font-weight: bold;
+  background-color: #F8F8F8;
+  padding: 20px 20px;
+  border: 1px solid #D3D3D3;
+  line-height: 1.6;
+}
+
+.recruit_sec_box01 dd {
+  width: 80%;
+  padding: 20px 20px;
+  border: 1px solid #D3D3D3;
+  line-height: 1.6;
+}
+
