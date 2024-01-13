@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+body {
+    font-family:  "Noto Sans JP", sans-serif;
+    /* font-family: YakuHanJP_Noto, Roboto, "Noto Sans JP", sans-serif; */
+    color: #333;
+}
+main {
+    margin-top: 138px;
+}
+.inner-1175  {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subMv__wrapper {
+    position: relative;
+    height: 220px;
+}
+.subMv__heading {
+    font-size: 38px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+}
+.heading--type1 {
+    color: #0a296c;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+@media screen and (max-width: 1340px) {
+    .inner-1175  {
+        max-width: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 64px;
+    }
+    .subMv__wrapper {
+        height: 122px;
+    }
+    .subMv__heading {
+        font-size: 28px;
+        line-height: 1.8;
+    }
+    .heading--type1 {
+        font-size: 22px;
+        padding: 35px 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .subMv__heading {
+        font-size: 21px;
+    }
+    .heading--type1 {
+        font-size: 20px;
+        padding: 35px 0;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+
+
+
+.outline {
+    padding-bottom: 120px;
+}
+.outline__data {
+    font-size: 17px;
+    border-top: solid 1px #f5f5f5;
+}
+.outline__row {
+    display: flex;
+    border-bottom: solid 1px #f5f5f5;
+    padding: 20px 0;
+}
+.outline__data dt {
+    font-weight: 700;
+    width: 20%;
+}
+.outline__data dd {
+    width: 80%;
+    line-height: 1.75;
+}
+
+@media screen and (max-width: 1340px) {
+
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    .outline__row {
+        display: block;
+    }
+    .outline__data {
+        font-size: 14px;
+    }
+    .outline__data dt,
+    .outline__data dd {
+        width: 100%;
+    }
+    .outline__data dt {
+        margin-bottom: 5px;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+/* 簡易ページ-------------- */
+
+.bnr-box li:first-of-type{
+margin-bottom: 20px;
+}
+.prevention_sec_list01 li::before{
+display: none;
+}
+.body_contents.voice{
+    margin-bottom: 60px;
+}
+
+.main_sec_ttl{
+margin-bottom: 40px;
+}
+.subcontents.voice{
+    border: 1px solid #d6d6d6 ;
+    padding: 40px 48px;
+    margin: 0 0 36px;
+}
+.voice_contents{
+    padding-bottom: 10px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+.voice_contents li:not(:last-of-type){
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+.voice_member{
+    font-size: 16px;
+    color: #1DBDD3;
+    padding-bottom: 16px;
+}
+.voice_subttl{
+    height: 48px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin: 0 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2.2;
+    border-bottom: 1px solid #1DBDD3;
+    /* padding-bottom: 16px; */
+    /* margin-bottom: 40px; */
+}
+.voice_contents table{
+    width: 90%;
+    background-color: #e9f6f8;
+    padding: 10px 16px 16px;
+    margin: 0 auto 30px;
+}
+.table_border{
+    border-bottom: 1px solid #ccc;
+}
+.voice_table th{
+    width: 25%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1DBDD3;
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+}
+.voice_table td{
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+}
+.voice_img{
+    width: 90%;
+    margin: 0 auto 30px;
+}
+.voice_img img{
+    width: 100%;
+    height: auto;
+}
+.voice_desc{
+    width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    margin: 0 auto 40px;
+}
+.voice_btn{
+    text-align: center;
+    /* padding-bottom: 40px; */
+}
+.voice_btn a{
+    color: #fff;
+    background-color: #1DBDD3;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px 80px;
+    margin: 20px 0;
+}
+.voice_btn a:hover{
+    opacity: .6;
+    /* color: #1DBDD3;
+    background-color: #fff; */
+    transition: .8s;
+}
+
+.voice_imgbox{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .main_sec_ttl{
+        margin-bottom: 32px;
+    }
+        
+    .voice_subttl{
+        font-size: 18px;
+        margin: 0 20px 24px;
+    }
+    .voice_contents.list table{
+        width: 90%;
+    }    
+    .voice_contents table{
+        width: 100%;
+    }    
+    .voice_img{
+        margin: 0 auto 20px;
+    }    
+    .voice_imgbox img{
+        width: 100%;
+        height: auto;
+    }
+    .voice_contents li:not(:last-of-type){
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .voice_desc{
+        margin: 0 auto 30px;
+    }
+    .body_contents.voice{
+        margin-bottom: 30px;
+    }  
+}
+
+.item_img img{
+    max-width: 100%;
+}
+.item_texts{
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+}
+.member_name{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.member_text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.contents_box{
+    margin-bottom: 50px;
+    /* margin: 60px 0 50px; */
+}
+.box_ttl{
+    color: #1DBDD3;
+    font-size: 20px;
+    border-bottom:1px solid #1DBDD3;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.main_sec_img{
+    margin-bottom: 60px;
+}
+@media (max-width: 768px){
+    .subcontents.voice{
+        padding: 30px 0 20px;
+        margin: 0 0 30px;
+    }
+    .voice_member{
+        font-size: 14px;
+        padding: 0 20px 4px;
+    }
+    .voice_table th{
+        width: 28%;
+        font-size: 15px;
+        font-weight: bold;
+        color: #1DBDD3;
+        border-bottom: 1px solid #ccc;
+        padding: 16px 0;
+    }
+    .voice_table td{
+        font-size: 15px;
+        vertical-align: middle;
+        border-bottom: 1px solid #ccc;
+        padding: 16px 0;
+    }
+    .contents_box{
+        margin-bottom: 40px;
+    }
+    .contents_box.mb-30{
+        margin-bottom: 30px;
+    }
+    .main_sec_img{
+        margin-bottom: 40px;
+    }
+    
+}
