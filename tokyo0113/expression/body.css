@@ -171,21 +171,23 @@ main {
   }
   .display_sec_box01 dl {
     display: flex;
+    margin-bottom: 10px;
+  }
+  .display_sec_box01 dl:last-child{
+    margin-bottom: 0;
   }
   
   .display_sec_box01 dt {
-    width: 25%;
+    width: 23.5%;
     font-weight: bold;
-    padding: 20px 20px;
-    border-top: 1px solid #D3D3D3;
-    line-height: 1.6;
+    padding: 14px;
+    background-color: #E5E5E5;
   }
   
   .display_sec_box01 dd {
-    width: 80%;
-    padding: 20px 20px;
-    border-top: 1px solid #D3D3D3;
-    line-height: 2;
+    width: 76.5%;
+    padding: 14px;
+    background-color: #F5F5F5;
   }
   
   .display_last_dt,
