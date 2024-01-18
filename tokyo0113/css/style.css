@@ -3545,7 +3545,7 @@ pc-none sp-none
   padding-top: 50px;
 }
 .main_sec_txt{
-  line-height: 1.8;
+  line-height: 1.9;
   /* line-height: 2; */
 }
 .main_sec_img{
@@ -3553,7 +3553,7 @@ pc-none sp-none
   text-align: center;
 }
 .box_text{
-  line-height: 1.8;
+  line-height: 1.9;
   margin-top: 8px;
 }
 @media screen and (max-width: 768px) {
