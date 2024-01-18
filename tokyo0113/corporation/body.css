@@ -86,21 +86,26 @@ main {
 }
 .outline__data {
     font-size: 17px;
-    border-top: solid 1px #DBDBDB;;
     width: 850px;
 }
 .outline__row {
     display: flex;
-    border-bottom: solid 1px #DBDBDB;
-    padding: 20px 0;
+    margin-bottom: 10px;
+}
+.outline__row:last-child{
+    margin-bottom: 0;
 }
 .outline__data dt {
+    width: 23.5%;
+    padding: 14px;
     font-weight: 700;
-    width: 20%;
+    background-color: #E5E5E5;
 }
 .outline__data dd {
-    width: 80%;
+    width: 76.5%;
+    padding: 14px;
     line-height: 1.75;
+    background-color: #F5F5F5;
 }
 
 @media screen and (max-width: 1340px) {
