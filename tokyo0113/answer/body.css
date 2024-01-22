@@ -181,6 +181,24 @@ main {
 .contents_box{
     margin-bottom: 36px;
 }
+.bottombtn{
+    display: flex;
+    justify-content: space-between;
+}
+.bottombtn a{
+    display: block;
+    width: 260px;
+    height: 60px;
+    line-height: 58px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #3C6DF0, #0A2D88);
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.bottombtn a:hover{
+    opacity: 0.8;
+}
 @media screen and (max-width: 768px) {
     .ttl_box {
         font-size: 16px;
@@ -202,5 +220,22 @@ main {
         border: 2px solid #A22125;
         font-size: 20px;
         line-height: 26px;
+    }
+    .bottombtn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bottombtn a{
+        display: block;
+        width: 75%;
+        min-width: 240px;
+        height: 52px;
+        line-height: 50px;
+        margin-bottom: 12px;
+        border-radius: 26px;
+        font-size: 16px;
+    }
+    .bottombtn a:last-child{
+        margin-bottom: 0;
     }
 }
