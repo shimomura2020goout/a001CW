@@ -242,6 +242,7 @@ border-top: none;
 .contactscontents-form input,
 .contactscontents-form textarea {
     width: 90%;
+    padding: 20px;
     background-color: #f2f4f5;
     border-radius: 3px;
 }
@@ -303,13 +304,15 @@ border-top: none;
     line-height: 2;
 }
 @media (max-width: 768px){
+    .contactscontents-form tr{
+        flex-wrap: wrap;
+    }
     .contactscontents-form th,
     .contactscontents-form td {
     width: 100%;
     }
-    .contactscontents-form textarea {
-        width: 70%;
-        height: 140px;
+    .contactscontents-form input,
+    .contactscontents-form textarea{
+        width: 100%;
     }
-
 }
