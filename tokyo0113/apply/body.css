@@ -151,10 +151,11 @@ main {
 }
 
 .contactscontents-form tr {
-    margin-bottom: 2.7rem;
-    display: block;
-    padding-top: 37px;
-    border-top: 0.1rem solid #DBDBDB;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #f2f4f5;
 }
 .contactscontents-form tr:first-of-type {
 border-top: none;
@@ -171,26 +172,33 @@ border-top: none;
 }
 
 .contactscontents-form th label {
-	font-size: 17px;
+	font-size: 16px;
+    font-weight: bold;
 }
 
-.contactscontents-form th,
+.contactscontents-form th {
+    width: 29%;
+    display: block;
+    text-align: left;
+}
 .contactscontents-form td {
-    width: 70%;
+    width: 71%;
     display: block;
     text-align: left;
 }
 
 .contactscontents-form th span {
-    background-color: #B40019;
+    background-color: #166ab5;
     color: #fff;
     display: inline-block;
-    margin-right: 1.1rem;
-    padding: 4px 10px;
+    margin-left: 10px;
+    padding: 3px 6px;
     text-align: center;
     width: fit-content;
-    border-radius: 0.6rem;
-	font-size: 13px;
+    border-radius: 3px;
+	font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .form-control {
@@ -233,17 +241,23 @@ border-top: none;
 
 .contactscontents-form input,
 .contactscontents-form textarea {
-	border: 1px solid #666;
-    width: 70%;
+    width: 90%;
+    background-color: #f2f4f5;
+    border-radius: 3px;
 }
 
+.contactscontents-form input{
+    height: 50px;
+}
 .contactscontents-form textarea {
-	width: 70%;
-	height: 140px;
+	width: 90%;
+	height: 160px;
 }
 
 .pb-text {
 	padding-bottom: 37px;
+    color: #0A2D88;
+    font-weight: bold;
 	text-align: center;
 }
 
@@ -260,7 +274,7 @@ border-top: none;
     margin: 0 auto;
     width: 300px;
     text-align: center;
-	background: #EB0D01;
+	background: #DC1F03;
 	padding-bottom: 1px;
 }
 
