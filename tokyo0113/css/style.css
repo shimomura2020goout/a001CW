@@ -3531,7 +3531,9 @@ pc-none sp-none
 }
 /* 簡易ページ */
 .main_sec{
+  width: 100%;
   max-width: 850px;
+  margin-right: 20px;
   padding-top: 50px;
 }
 .body_contents {

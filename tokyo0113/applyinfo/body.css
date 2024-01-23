@@ -79,28 +79,55 @@ main {
 
 
 
-/* .subMv {
-    background: url(../img/top/sub-tokyo.jpg)no-repeat center/cover;
-} */
-.outline {
-    padding-bottom: 120px;
+.flow_design08 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.outline__data {
-    font-size: 17px;
-    border-top: solid 1px #f5f5f5;
+
+.flow08 {
+  padding-left: 0;
 }
-.outline__row {
-    display: flex;
-    border-bottom: solid 1px #f5f5f5;
-    padding: 20px 0;
+
+.flow08 > li {
+  list-style-type: none;
+  border-radius: 15px;
+  background: #F4F6FA;
+  position: relative;
+  padding: 20px;
 }
-.outline__data dt {
-    font-weight: 700;
-    width: 20%;
+
+.flow08 > li:not(:last-child) {
+  margin-bottom: 20px;
 }
-.outline__data dd {
-    width: 80%;
-    line-height: 1.75;
+
+.flow08 > li dl {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.flow08 > li dl dt {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  width: 20%;
+  min-width: 7em;
+}
+
+.flow08 > li .icon08 {
+  color: #00AFC8;
+  margin-right: 0.5em;
+}
+
+.flow08 > li dl dd {
+  margin: 0;
+  width: calc(80% - 20px);
+  font-size: 16px;
+}
+.flow08 > li dl dd ul{
+    margin: 5px 0;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1340px) {
@@ -112,18 +139,20 @@ main {
     
 }
 @media screen and (max-width: 768px) {
-    .outline__row {
-        display: block;
+
+    .flow08 > li dl{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
     }
-    .outline__data {
-        font-size: 14px;
-    }
-    .outline__data dt,
-    .outline__data dd {
+    .flow08 > li dl dt{
+        justify-content: center;
         width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
     }
-    .outline__data dt {
-        margin-bottom: 5px;
+    .flow08 > li dl dd{
+        width: 100%;
     }
     
 }

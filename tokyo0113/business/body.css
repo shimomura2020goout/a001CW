@@ -79,26 +79,41 @@ main {
 
 
 
-.outline {
-    padding-bottom: 120px;
-}
-.outline__data {
-    font-size: 17px;
-    border-top: solid 1px #f5f5f5;
-}
-.outline__row {
+.box{
     display: flex;
-    border-bottom: solid 1px #f5f5f5;
-    padding: 20px 0;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
-.outline__data dt {
-    font-weight: 700;
-    width: 20%;
+.box li{
+    width: 48%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    padding: 23px 30px 33px 30px;
+    text-align: center;
+    border: 1px solid #d3d3d3;
 }
-.outline__data dd {
-    width: 80%;
-    line-height: 1.75;
+.box li:nth-child(2n){
+    margin-right: 0;
 }
+.box li p:nth-child(1) img{
+    max-width: 100%;
+}
+.box li p:nth-child(2){
+    margin-top: 20px;
+}
+.box li span:nth-child(3){
+    display: block;
+    background: #0a2d88;
+    margin-top: 20px;
+    padding: 8px;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    transition: all 0.3s;
+}
+.box li span:nth-child(3):hover{
+    box-shadow: none;
+}
+
 
 @media screen and (max-width: 1340px) {
 
@@ -109,18 +124,12 @@ main {
     
 }
 @media screen and (max-width: 768px) {
-    .outline__row {
-        display: block;
-    }
-    .outline__data {
-        font-size: 14px;
-    }
-    .outline__data dt,
-    .outline__data dd {
+
+    .box li{
         width: 100%;
-    }
-    .outline__data dt {
-        margin-bottom: 5px;
+        margin-right: 0;
+        margin-bottom: 17px;
+        padding: 16px 25px 20px;
     }
     
 }
