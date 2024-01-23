@@ -85,6 +85,7 @@ main {
 .outline__data {
     font-size: 17px;
     width: 850px;
+    max-width: 100%;
 }
 .outline__row {
     display: flex;

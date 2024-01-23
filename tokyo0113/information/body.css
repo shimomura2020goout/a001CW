@@ -173,6 +173,9 @@ main {
 .box_ttl{
     margin-top: 10px;
 }
+.subcontents{
+    margin-bottom: 60px;
+}
 
 @media (max-width: 768px){
 
@@ -182,5 +185,8 @@ main {
     .main_sec_box li::after{
         width: 8px;
         height: 16px;
-    }   
+    }
+    .subcontents{
+        margin-bottom: 50px;
+    }
 }
