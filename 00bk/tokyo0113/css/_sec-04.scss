@@ -1,0 +1,76 @@
+/*-------------------------------------------
+
+-------------------------------------------*/
+
+.application {
+  height: 355px;
+  height: auto;
+  margin: 80px 0;
+  // padding: 80px 0;
+  // background-color: #abc5fa;
+}
+
+.application-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 40px auto 0;
+  padding: 0 7.5vw;
+}
+.application-image-box {
+  // flex: 0 0 40%;
+  width: 41%;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+}
+.application-image {
+  width: 320px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.application-text-box {
+  // flex: 0 0 600px;
+  width: 60%;
+  margin-top: 0;
+  & p {
+    margin-top: 8px;
+    letter-spacing: 0.03em;
+  }
+  & a {
+    display: block;
+    margin: 24px 0 0;
+    color: #169eff;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+}
+
+@media screen and (max-width: 768px) {
+  .application {
+    margin: 40px 0;
+  }
+
+  .application-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .application-image-box {
+    width: 300px;
+  }
+  .application-image {
+    width: 100%;
+  }
+  .application-image-box {
+    margin-right: 0;
+  }
+  .application-text-box {
+    width: 100%;
+    font-size: 0.875rem;
+    & p {
+      margin-top: 4px;
+    }
+  }
+}

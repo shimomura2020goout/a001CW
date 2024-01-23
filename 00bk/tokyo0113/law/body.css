@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+    font-family: YakuHanJP_Noto, Roboto, "Noto Sans JP", sans-serif;
+    color: #333;
+}
+main {
+    margin-top: 138px;
+}
+.inner-1175  {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subMv__wrapper {
+    position: relative;
+    height: 220px;
+}
+.subMv__heading {
+    font-size: 38px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+}
+.heading--type1 {
+    color: #0a296c;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+@media screen and (max-width: 1340px) {
+    .inner-1175  {
+        max-width: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 64px;
+    }
+    .subMv__wrapper {
+        height: 122px;
+    }
+    .subMv__heading {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    .heading--type1 {
+        font-size: 22px;
+        padding: 35px 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .subMv__heading {
+        font-size: 21px;
+    }
+    .heading--type1 {
+        font-size: 20px;
+        padding: 35px 0;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+
+
+.outline {
+    padding-bottom: 120px;
+}
+.outline__data {
+    font-size: 17px;
+    border-top: solid 1px #f5f5f5;
+}
+.outline__row {
+    display: flex;
+    border-bottom: solid 1px #f5f5f5;
+    padding: 20px 0;
+}
+.outline__data dt {
+    font-weight: 700;
+    width: 20%;
+}
+.outline__data dd {
+    width: 80%;
+    line-height: 1.75;
+}
+
+@media screen and (max-width: 1340px) {
+
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    .outline__row {
+        display: block;
+    }
+    .outline__data {
+        font-size: 14px;
+    }
+    .outline__data dt,
+    .outline__data dd {
+        width: 100%;
+    }
+    .outline__data dt {
+        margin-bottom: 5px;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+.contents_box{
+    margin-bottom: 20px;
+}
+.contents_box li{
+    line-height: 2;
+}
+

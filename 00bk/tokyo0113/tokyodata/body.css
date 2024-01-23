@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+body {
+    font-family: YakuHanJP_Noto, Roboto, "Noto Sans JP", sans-serif;
+    color: #212121;
+}
+main {
+    margin-top: 138px;
+}
+.inner-1175  {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pankuzu {
+    padding: 17px 0 13px;
+}
+.pankuzu__list {
+    display: flex;
+    font-size: 12px;
+}
+.pankuzu__listItem {
+    color: #ccc;
+}
+.pankuzu__listItem:not(:last-child)::after {
+    content: ">";
+    padding: 0 8px;
+    color: #212121;
+}
+.pankuzu__listItem:not(:last-child) {
+    color: #0a296c;
+}
+.pankuzu__listItem:last-child {
+    pointer-events: none;
+}
+.subMv {
+    /* background-color: #f6f6f3; */
+}
+.subMv__wrapper {
+    position: relative;
+    height: 220px;
+}
+.subMv__heading {
+    font-size: 38px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+}
+.heading--type1 {
+    color: #0a296c;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+@media screen and (max-width: 1340px) {
+    .inner-1175  {
+        max-width: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 64px;
+    }
+    .subMv__wrapper {
+        height: 122px;
+    }
+    .subMv__heading {
+        font-size: 30px;
+    }
+    .heading--type1 {
+        font-size: 22px;
+        padding: 35px 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .subMv__heading {
+        font-size: 24px;
+    }
+    .heading--type1 {
+        font-size: 20px;
+        padding: 35px 0;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+
+
+
+.subMv {
+   background-color: #ccc;
+   background-size: cover;
+   background-position: center center;
+}
+.outline {
+    padding-bottom: 120px;
+}
+.outline__data {
+    font-size: 16px;
+    border-top: solid 1px #f5f5f5;
+}
+.outline__row {
+    display: flex;
+    border-bottom: solid 1px #f5f5f5;
+    padding: 20px 0;
+}
+.outline__data dt {
+    font-weight: 700;
+    width: 20%;
+}
+.outline__data dd {
+    width: 80%;
+    line-height: 1.75;
+}
+
+@media screen and (max-width: 1340px) {
+
+}
+
+@media screen and (max-width: 1060px) {
+
+    
+}
+@media screen and (max-width: 768px) {
+    .outline__row {
+        display: block;
+    }
+    .outline__data {
+        font-size: 14px;
+    }
+    .outline__data dt,
+    .outline__data dd {
+        width: 100%;
+    }
+    .outline__data dt {
+        margin-bottom: 5px;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+
+    
+}
+@media screen and (max-width: 450px) {
+
+    
+}
+
+/* 簡易ページ------- */
+.main_visual{
+    width: 100%;
+    height: 380px;
+    background:url(./img/top/mainv-tokyo.jpg) no-repeat center/cover;
+  }
+ 
+  .sec_ttl{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .sec_subttl{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .sec_item{
+    margin-bottom: 60px;
+  }
+  .inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sec_main{
+    margin: 84px 30px;
+  }
+  .item_text{
+    font-size: 16px;
+    text-align: left;
+    line-height: 2;
+  }
+  .item_ttl{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .item_texts{
+    margin: 24px 0;
+  }
+ 
+
+  /* sec01------- */
+ .sec01 .inner{
+    display: flex;
+ }
+ .sec01 .sec_ttl{
+  text-align: left;
+ }
+  .sec01_texts{
+      width: 60%;
+      margin-right: 40px;
+      text-align: left;
+  }
+  .sec01_text{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .sec01_img img{
+      width: 100%;
+  }
+  
+  /* sec02------- */
+ 
+  
+  .sec02_contents{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+  }
+  .sec02 .sec_item{
+      width: 30%;
+      text-align: left;
+      margin-bottom: 0;
+  }
+  .sec02_item_img{
+    margin: 24px 0;
+  }
+  .sec02 img{
+    width: 100%;
+  }
+  .sec02 .item_ttl{
+    padding-top: 10px;
+    height: 68px;
+    font-weight: 700;
+  }
+  
+  /* sec03------ */
+ 
+ 
+  .sec03_item01{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .sec03_item02{
+    display: flex;
+    justify-content: center;
+  }
+  .sec03_item01 .item_texts{
+    margin-right: 50px;
+  }
+  .sec03_item02 .item_texts{
+    margin-left: 50px;
+  }
+  .sec03_item_img img{
+      width: 100%;
+      height: auto;
+  }
+  .sec03 .item_texts{
+    width: 60%;
+      text-align: left;
+      padding: 10px 30px;
+  }
+  .sec03_contents{
+    margin-top: 50px;
+  }
+  
+  /* sec04------ */
+ 
+  .sec04 .sec_item{
+    display: flex;
+    justify-content:space-evenly;
+    margin:30px 0 60px;
+  }
+  .sec04 .item_texts{
+    width: 50%;
+    text-align: left;
+  }
+  .sec04_item_img{
+    width: 40%;
+  }
+  .sec04_item_img img{
+    max-width: 100%;
+  }
+  
+  /* merit------ */
+  .merit 
+  .merit_item_img{
+    margin:40px 0;
+  }
+  /* colum------ */
+ 
+  .colum .sec_item{
+    display: flex;
+    justify-content: space-around;
+    margin:40px 0 60px;
+  }
+  .colum .item_texts{
+    width: 60%;
+    text-align: left;
+    margin: 0;
+  }
+  .colum_item_img{
+    width: 40%;
+  }
+  .colum_item_img img{
+    max-width: 100%;
+    height: auto;
+  }
+  /* sec05------ */
+ 
+  .sec05 ul{
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+  }
+  .sec05 li{
+      margin-bottom: 40px;
+  }
+  .sec05_q{
+      margin-bottom: 12px;
+      border-bottom: 1px solid #c2c2c2;
+  }
+  
+  /* sec07 ------*/
+ 
+  .sec07 .inner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .news_item{
+      display: flex;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c2c2c2;
+  }
+  .news_day{
+      padding-right: 20px;
+      width: 20%;
+  }
+  .recommend{
+    text-align: center;
+  
+  }
+  
+  /* category---- */
+ 
+  .category{
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .cate_item_img{
+    width: 100%;
+    margin: 40px 0; 
+  }
+  .cate_item_img img{
+    max-width: 100%;
+    height: 320px;
+  }
+ 

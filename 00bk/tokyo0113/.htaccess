@@ -1,0 +1,10 @@
+
+
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^(xn--dckn0c3a4e6a4gwc5h3626dtmxc\.jp)$ [NC] 
+RewriteRule (.*) https://www.xn--dckn0c3a4e6a4gwc5h3626dtmxc.jp%{REQUEST_URI} [R=301,L] 
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+ErrorDocument 404 /404.html
