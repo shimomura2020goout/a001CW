@@ -119,7 +119,7 @@ main {
 }
 .box050-1{
     display: flex;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .box050-1 p:nth-child(1){
     width: 50%;
@@ -135,11 +135,11 @@ main {
 
 .box050-2{
     margin-top: 30px;
-    padding: 24px 30px;
-    background-color: #ffe9c6;
+    padding: 24px 30px 10px;
+    background-color: #eee;
 }
 .box050-2 h4{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -148,6 +148,7 @@ main {
 }
 .box050-2 ul li{
     width: 32%;
+    margin-bottom: 16px;
     margin-right: 2%;
     padding: 20px;
     background-color: #fff;
@@ -162,7 +163,7 @@ main {
     display: block;
     margin: 15px 0 5px;
     font-weight: bold;
-    color: #f5a623;
+    color: #01606D;
 }
 
 .box050-3{
@@ -382,7 +383,7 @@ table .text_s{
         display: flex;
         width: 100%;
         margin-right: 0;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
         padding: 10px;
     }
     .box050-2 ul li:last-child{
