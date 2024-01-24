@@ -333,9 +333,61 @@ table .text_s{
 .box03 li h4{
     margin-bottom: 20px;
     font-size: 16px;
-    color: #002896;
+    color: #01606D;
     font-weight: bold;
 }
+
+.flow_design08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .flow08 {
+    padding-left: 0;
+  }
+  
+  .flow08 > li {
+    list-style-type: none;
+    border-radius: 15px;
+    background: #F4F6FA;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .flow08 > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flow08 > li dl {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .flow08 > li dl dt {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    width: 20%;
+    min-width: 7em;
+  }
+  
+  .flow08 > li .icon08 {
+    color: #00AFC8;
+    margin-right: 0.5em;
+  }
+  
+  .flow08 > li dl dd {
+    margin: 0;
+    width: calc(80% - 20px);
+    font-size: 16px;
+  }
+  .flow08 > li dl dd ul{
+      margin: 5px 0;
+      font-size: 14px;
+  }
 
 @media screen and (max-width: 1340px) {
 
@@ -485,6 +537,22 @@ table .text_s{
     .box03 li p{
         font-size: 14px;
     }
+
+    .flow08 > li dl{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+    .flow08 > li dl dt{
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .flow08 > li dl dd{
+        width: 100%;
+    }
+    
 }
 @media screen and (max-width: 550px) {
 
