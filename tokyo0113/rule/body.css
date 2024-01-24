@@ -79,23 +79,6 @@ main {
 
 
 
-
-
-.ttl_box {
-    margin-bottom: 15px;
-    color: #1a1a1a;
-    font-size: 18px;
-    font-weight: bold;
-    background: #f7f7f7;
-    border: 1px solid #cbcbcb;
-    padding: 8px;
-    border-radius: 3px;
-}
-.ttl_box span{
-    display: block;
-    border-left: 6px solid #6199d2;
-    padding-left: 10px;
-}
 .main_sec_txt{
     margin-bottom: 20px;
 }
@@ -109,9 +92,6 @@ main {
     
 }
 @media screen and (max-width: 768px) {
-    .ttl_box{
-        font-size: 16px;
-    }
     .main_sec_txt{
         font-size: 14px;
     }
