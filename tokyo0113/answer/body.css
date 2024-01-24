@@ -190,6 +190,7 @@ main {
     width: 260px;
     height: 60px;
     line-height: 58px;
+    margin-right: 10px;
     border-radius: 30px;
     background: linear-gradient(to right, #3C6DF0, #0A2D88);
     font-size: 18px;
@@ -199,6 +200,10 @@ main {
 .bottombtn a:hover{
     opacity: 0.8;
 }
+.bottombtn a:last-child{
+    margin-right: 0;
+}
+
 @media screen and (max-width: 768px) {
     .ttl_box {
         font-size: 16px;
@@ -231,6 +236,7 @@ main {
         min-width: 240px;
         height: 52px;
         line-height: 50px;
+        margin-right: 0;
         margin-bottom: 12px;
         border-radius: 26px;
         font-size: 16px;
