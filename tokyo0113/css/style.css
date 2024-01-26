@@ -3540,7 +3540,7 @@ pc-none sp-none
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 80px;
+  margin: 0 auto 60px;
 }
 .saidbanner{
   width: 280px;
@@ -3568,6 +3568,17 @@ pc-none sp-none
   font-size: 18px;
   margin-top: 30px;
   color: #01606D;
+}
+.ttl_box_main{
+  position: relative;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(#ffffff 0%, #eee 100%);
+  border: 1px solid #D8D8D8;
+  border-top: 4px solid #27acd9;
+  padding: 10px 15px;
 }
 .ttl_box {
   margin-bottom: 15px;
