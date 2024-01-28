@@ -101,6 +101,16 @@ main {
   margin-bottom: 20px;
 }
 
+.flow08 > li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    left: 20px;
+    bottom: -12px;
+    background: url('../img/arrow01.png') center/cover;
+  }
+
 .flow08 > li dl {
   display: flex;
   align-items: center;
@@ -153,6 +163,16 @@ main {
     }
     .flow08 > li dl dd{
         width: 100%;
+    }
+    .flow08 > li:not(:last-child)::after{
+        content: '';
+        position: absolute;
+        width: 23px;
+        height: 22px;
+        left: 50%;
+        bottom: -12px;
+        transform: translateX(-50%);
+        background: url('../img/arrow01.png') center/cover;
     }
     
 }
