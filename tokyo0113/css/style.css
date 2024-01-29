@@ -250,7 +250,7 @@ Header
   background-color: #0a2d88;
   color: #fff;
   height: 44px;
-  line-height: 45px;
+  line-height: 43px;
 }
 
 .scrolled .btn-offer {
@@ -265,7 +265,7 @@ Header
   border-radius: 40px;
   border: 2px solid #0a2d88;
   height: 44px;
-  line-height: 42px;
+  line-height: 39px;
 }
 
 .btn-siteMap {
@@ -2563,7 +2563,7 @@ Consideration
   line-height: 18px;
   font-weight: bold;
   border-radius: 30px;
-  padding: 20px 0;
+  padding: 20px 0 21px;
   margin-left: 0;
   margin-right: 16px;
   -webkit-transition: all 0.5s;
@@ -2583,7 +2583,7 @@ Consideration
 }
 
 .bottombnr{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 20px 30px 0;
 }
 .bottombnr a{
@@ -2595,7 +2595,7 @@ Consideration
 }
 .homebtn{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .homebtn a{
   text-decoration: underline;
@@ -3532,30 +3532,30 @@ pc-none sp-none
 /* 簡易ページ */
 .main_sec{
   width: 100%;
-  max-width: 850px;
-  margin-right: 20px;
+  max-width: 860px;
+  margin-right: 10px;
   padding-top: 50px;
 }
 .body_contents {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 60px;
+  margin: 0 auto 40px;
 }
 .saidbanner{
   width: 280px;
   padding-top: 50px;
 }
 .main_sec_txt{
-  line-height: 1.9;
-  /* line-height: 2; */
+  margin-bottom: 30px;
+  line-height: 2;
 }
 .main_sec_img{
   margin-bottom: 30px;
   text-align: center;
 }
 .box_text{
-  line-height: 1.9;
+  line-height: 2;
   margin-top: 8px;
 }
 @media screen and (max-width: 768px) {
@@ -3569,16 +3569,16 @@ pc-none sp-none
   margin-top: 30px;
   color: #01606D;
 }
-.ttl_box_main{
+.contents_ttl{
   position: relative;
   margin-bottom: 15px;
   color: #1a1a1a;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   background: linear-gradient(#ffffff 0%, #eee 100%);
   border: 1px solid #D8D8D8;
   border-top: 4px solid #27acd9;
-  padding: 10px 15px;
+  padding: 15px 20px;
 }
 .ttl_box {
   margin-bottom: 15px;
@@ -3587,12 +3587,12 @@ pc-none sp-none
   font-weight: bold;
   background: #f7f7f7;
   border: 1px solid #cbcbcb;
-  padding: 8px;
+  padding: 8px 8px 9px;
   border-radius: 3px;
 }
 .ttl_box span{
   display: block;
-  border-left: 6px solid #6199d2;
+  border-left: 6px solid #3FCCD8;
   padding-left: 10px;
 }
 .contents_box{
@@ -3621,6 +3621,11 @@ pc-none sp-none
   .ttl_box{
     font-size: 16px;
 }
+}
+@media (max-width: 768px){
+  .contents_ttl{
+    font-size: 18px;
+  }
 }
 
 /*-------------------------------------------
@@ -3676,7 +3681,7 @@ pankuzu
   -webkit-line-clamp: 1;
   overflow: hidden;
   font-size: 12px;
-  line-height: 51px;
+  line-height: 49px;
 }
 .pankuzu__listItem {
   display: inline;
@@ -3751,7 +3756,7 @@ display: none;
 .main_sec_ttl{
 margin-bottom: 40px;
 }
-.main_sec_ttl h3{
+/* .main_sec_ttl h3{
   font-size: 25px;
   font-weight: 700;
   line-height: 1.8;
@@ -3759,14 +3764,14 @@ margin-bottom: 40px;
   padding-bottom: 10px;
   color: #01606D;
   border-bottom: 1px solid #B2CFD3;
-}
+} */
 
 .box_subttl{
     font-size: 17px;
     margin-top: 10px;
 }
 @media (max-width: 1060px){
-  .main_sec_ttl h3{
+  /* .main_sec_ttl h3{
     font-size: 18px;
-  }
+  } */
 } 
