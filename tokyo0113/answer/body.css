@@ -108,7 +108,12 @@ main {
     border-radius: 3px;
 }
 .box_text{
-    margin-bottom: 24px;
+    margin-top: 24px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.box_text:last-child{
+    border-bottom: none;
 }
 .box_text li{
     position: relative;
@@ -122,7 +127,7 @@ main {
     left: 0;
     width: 40px;
     height: 40px;
-    background-color: #A22125;
+    background-color: #85D2DE;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
@@ -136,8 +141,8 @@ main {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    color: #A22125;
-    border: 3px solid #A22125;
+    color: #CCCCCC;
+    border: 3px solid #CCCCCC;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -149,16 +154,18 @@ main {
 .bottombtn{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 .bottombtn a{
     display: block;
-    width: 260px;
+    width: 200px;
     height: 60px;
     line-height: 58px;
     margin-right: 10px;
     border-radius: 30px;
     background: linear-gradient(to right, #3C6DF0, #0A2D88);
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     color: #fff;
     text-align: center;
 }
@@ -204,7 +211,7 @@ main {
         margin-right: 0;
         margin-bottom: 12px;
         border-radius: 26px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .bottombtn a:last-child{
         margin-bottom: 0;

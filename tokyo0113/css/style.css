@@ -3541,15 +3541,19 @@ pc-none sp-none
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 40px;
+  margin: 0 auto 65px;
 }
 .saidbanner{
   width: 280px;
   padding-top: 50px;
 }
 .main_sec_txt{
-  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-bottom: 40px;
   line-height: 2;
+}
+.main_sec_txt:not(:nth-child(2)){
+  margin-bottom: 37px;
 }
 .main_sec_img{
   margin-bottom: 30px;
@@ -3572,7 +3576,7 @@ pc-none sp-none
 }
 .contents_ttl{
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #1a1a1a;
   font-size: 20px;
   font-weight: bold;
@@ -3588,13 +3592,14 @@ pc-none sp-none
   font-weight: bold;
   background: #f7f7f7;
   border: 1px solid #cbcbcb;
-  padding: 8px 8px 9px;
+  padding: 8px;
   border-radius: 3px;
 }
 .ttl_box span{
   display: block;
   border-left: 6px solid #3FCCD8;
   padding-left: 10px;
+  padding-bottom: 1px;
 }
 .contents_box{
   margin-bottom: 24px;

@@ -134,6 +134,8 @@ main {
   }
   .display_sec_box01 {
     margin-top: 35px;
+    line-height: 2
+    ;
   }
   .display_sec_box01 dl {
     display: flex;
@@ -146,13 +148,13 @@ main {
   .display_sec_box01 dt {
     width: 23.5%;
     font-weight: bold;
-    padding: 14px;
+    padding: 15px 20px;
     background-color: #E5E5E5;
   }
   
   .display_sec_box01 dd {
     width: 76.5%;
-    padding: 14px;
+    padding: 15px 20px;
     background-color: #F5F5F5;
   }
   
