@@ -3604,6 +3604,9 @@ pc-none sp-none
 .contents_box{
   margin-bottom: 24px;
 }
+.contents_box:last-child{
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 1060px) {
   .main_sec{
