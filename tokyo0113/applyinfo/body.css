@@ -87,6 +87,7 @@ main {
 
 .flow08 {
   padding-left: 0;
+  line-height: 1.9;
 }
 
 .flow08 > li {
@@ -94,7 +95,7 @@ main {
   border-radius: 15px;
   background: #F4F6FA;
   position: relative;
-  padding: 20px;
+  padding: 25px 20px;
 }
 
 .flow08 > li:not(:last-child) {
@@ -123,10 +124,10 @@ main {
   font-weight: 700;
   width: 20%;
   min-width: 7em;
+  color: #00AFC8;
 }
 
 .flow08 > li .icon08 {
-  color: #00AFC8;
   margin-right: 0.5em;
 }
 
@@ -137,7 +138,6 @@ main {
 }
 .flow08 > li dl dd ul{
     margin: 5px 0;
-    font-size: 14px;
 }
 
 @media screen and (max-width: 1340px) {

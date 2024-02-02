@@ -241,7 +241,8 @@ border-top: none;
     margin: 0 auto;
     width: 300px;
     text-align: center;
-	background: #DC1F03;
+	background: #E30000;
+    margin-bottom: 135px;
 	padding-bottom: 1px;
 }
 
@@ -268,6 +269,12 @@ border-top: none;
 }
 .item_text{
     line-height: 2;
+}
+.item_text span{
+    color: #e30000;
+}
+.homebtn{
+    margin: 60px 0 0;
 }
 @media (max-width: 768px){
     .contactscontents-form tr{

@@ -345,6 +345,7 @@ table .text_s{
   
   .flow08 {
     padding-left: 0;
+    line-height: 1.9;
   }
   
   .flow08 > li {
