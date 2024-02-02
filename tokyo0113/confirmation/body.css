@@ -98,12 +98,14 @@ main {
 }
 .box li p:nth-child(2){
     margin-top: 20px;
+    font-weight: bold;
 }
 .box li span:nth-child(3){
     display: block;
     background: #0a2d88;
     margin-top: 20px;
-    padding: 8px;
+    padding: 8px 8px 9px;
+    font-size: 14px;
     color: #fff;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
     transition: all 0.3s;
@@ -112,15 +114,18 @@ main {
     box-shadow: none;
 }
 .box_text span{
-    font-size: 12px;
+    font-size: 14px;
 }
 .box_img{
-    margin-top: 30px;
+    margin: 40px 0;
     text-align: center;
 }
 .box_img img{
     max-width: 100%;
     height: 100%;
+}
+.main_sec_txt span{
+    font-size: 14px;
 }
 
 
@@ -139,9 +144,6 @@ main {
         margin-right: 0;
         margin-bottom: 17px;
         padding: 16px 20px 20px;
-    }
-    .box_text span{
-        font-size: 11px;
     }
     
 }
