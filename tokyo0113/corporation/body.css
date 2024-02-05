@@ -130,6 +130,7 @@ main {
     }
     .outline__data dt {
         margin-bottom: 5px;
+        padding: 12px 20px;
     }
     
 }

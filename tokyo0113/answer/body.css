@@ -186,17 +186,17 @@ main {
         min-height: 30px;
     }
     .box_text li:nth-child(1)::before{
-        width: 32px;
-        height: 32px;
-        font-size: 20px;
-        line-height: 26px;
+        width: 28px;
+        height: 28px;
+        font-size: 18px;
+        line-height: 22px;
     }
     .box_text li:nth-child(2)::before{
-        width: 32px;
-        height: 32px;
-        border: 2px solid #A22125;
-        font-size: 20px;
-        line-height: 26px;
+        width: 28px;
+        height: 28px;
+        border: 2px solid #CCCCCC;
+        font-size: 18px;
+        line-height: 22px;
     }
     .bottombtn{
         flex-wrap: wrap;

@@ -87,8 +87,8 @@ main {
     
 }
 @media screen and (max-width: 768px) {
-    .main_sec_txt{
-        font-size: 14px;
+    .main_sec_txt:last-child{
+        margin-bottom: 0;
     }
 }
 @media screen and (max-width: 550px) {

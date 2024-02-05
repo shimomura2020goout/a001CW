@@ -101,6 +101,7 @@ main {
 }
 .box li p:nth-child(2){
     margin-top: 20px;
+    font-weight: bold;
 }
 .box li span:nth-child(3){
     display: block;
@@ -408,11 +409,16 @@ table .text_m{
         width: 100%;
         margin-right: 0;
         margin-bottom: 17px;
-        padding: 16px 25px 20px;
+        padding: 18px 25px 24px;
     }
     .box_text span{
         font-size: 12px;
     }
+    .box li span:nth-child(3){
+        font-size: 15px;
+        padding: 7px 8px 8px;
+    }
+
     .box050-1{
         flex-wrap: wrap;
         flex-direction: column-reverse;

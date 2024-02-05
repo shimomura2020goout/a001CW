@@ -2512,6 +2512,7 @@ Consideration
   width: 900px;
   height: auto;
   margin: 53px auto;
+  line-height: 1.9;
 }
 
 .consideration-content {
@@ -2521,7 +2522,7 @@ Consideration
 .guide-text {
   font-size: 1.75rem;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.9;
 }
 
 .sub-guide-text {
@@ -2595,6 +2596,7 @@ Consideration
 }
 .homebtn{
   text-align: center;
+  line-height: 1.9;
   margin-bottom: 40px;
 }
 .homebtn a{
@@ -2607,7 +2609,7 @@ Consideration
   .homebtn{
     width: 90%;
     font-size: 14px;
-    margin: 18px auto 40px;
+    margin: 20px auto;
   }
   .homebtn.sp-br{
     width: 90%;
@@ -3037,6 +3039,7 @@ Header
 
   .header-right-upper {
     height: 40px;
+    margin-top: 1px;
   }
 
   .navi-short {
@@ -3065,7 +3068,7 @@ Header
   .btn-offer {
     width: 100px;
     height: 40px;
-    line-height: 41px;
+    line-height: 39px;
     font-size: 0.8125rem;
   }
 
@@ -3140,7 +3143,7 @@ Consideration
             margin: 20px auto 22px;
   }
   .button-container a {
-    border-radius: 5.86667vw;
+    border-radius: 30px;
     width: 100%;
     font-size: 19px;
     margin-right: 0;
@@ -3151,7 +3154,7 @@ Consideration
   }
 
   .consideration-bottom-text {
-    font-size: 2.93333vw;
+    font-size: 3.2vw;
     margin-top: 20px;
   }
   .consideration-bottom-text span {
@@ -3341,7 +3344,7 @@ Footer
     display: block;
     padding: 16px 0 15px 1.5vw;
     /* padding: 3vw 0 3vw 1.5vw; */
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .menu-right__item:last-child {
@@ -3358,11 +3361,12 @@ Footer
             align-items: center;
     font-size: 2.66667vw;
     padding: 5.33333vw 0;
+    line-height: 1.9;
   }
 
   .footer-adress {
     width: 95%;
-    font-size: 14px;
+    font-size: 13px;
     text-align: left;
     margin: 0 auto 20px;
     /* margin-bottom: 10px; */
@@ -3370,7 +3374,7 @@ Footer
 
   .copyright {
     width: 95%;
-    font-size: 12px;
+    font-size: 11px;
     text-align: left;
   }
 }
@@ -3566,6 +3570,9 @@ pc-none sp-none
   .box_text{
     font-size: 14px;
   }
+  .main_sec_txt{
+    font-size: 14px;
+  }
 }
 .box_ttl{
   font-weight: 700;
@@ -3616,13 +3623,6 @@ pc-none sp-none
     display: block;
     margin: 0 auto;
   }
-  .saidbanner{
-    margin: 0 auto;
-  }
-  .main_sec_img img{
-    width: 100%;
-    height: auto;
-  }
   .box_ttl{
     font-size: 16px!important;
   }
@@ -3631,8 +3631,28 @@ pc-none sp-none
 }
 }
 @media (max-width: 768px){
+  .main_sec{
+    padding-top: 32px;
+  }
   .contents_ttl{
-    font-size: 18px;
+    padding: 10px 17px;
+    font-size: 17px;
+  }
+  .ttl_box{
+    font-size: 15px;
+  }
+
+  .saidbanner{
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+  }
+  .saidbanner .bnr-box{
+    display: flex;
+  }
+  .saidbanner img, .main_sec_img img{
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -3751,6 +3771,15 @@ pankuzu
   padding-right: 11px;
 }
 
+@media (max-width: 768px){
+  .pankuzu{
+    height: 39px;
+  }
+  .pankuzu__list{
+    height: 39px;
+    line-height: 41px;
+  }
+}
 
 
 /* 簡易ページ-------------- */

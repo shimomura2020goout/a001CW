@@ -279,6 +279,8 @@ border-top: none;
 @media (max-width: 768px){
     .contactscontents-form tr{
         flex-wrap: wrap;
+        margin-bottom: 16px;
+        padding-top: 16px;
     }
     .contactscontents-form th,
     .contactscontents-form td {
@@ -287,5 +289,12 @@ border-top: none;
     .contactscontents-form input,
     .contactscontents-form textarea{
         width: 100%;
+    }
+    .contactscontents-btnbox input{
+        margin-bottom: 90px;
+        padding-bottom: 2px;
+    }
+    .pb-text{
+        font-size: 15px;
     }
 }
