@@ -273,9 +273,6 @@ border-top: none;
 .item_text span{
     color: #e30000;
 }
-.homebtn{
-    margin: 60px 0 0;
-}
 @media (max-width: 768px){
     .contactscontents-form tr{
         flex-wrap: wrap;

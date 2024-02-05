@@ -3544,10 +3544,11 @@ pc-none sp-none
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 65px;
+  margin: 0 auto 70px;
 }
 .saidbanner{
   width: 280px;
+  margin: 0 auto;
   padding-top: 50px;
 }
 .main_sec_txt{
@@ -3649,6 +3650,7 @@ pc-none sp-none
   }
   .saidbanner .bnr-box{
     display: flex;
+    justify-content: center;
   }
   .saidbanner img, .main_sec_img img{
     width: 100%;

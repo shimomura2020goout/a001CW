@@ -77,7 +77,9 @@ main {
 }
 
 
-
+.main_sec_txt a{
+    text-decoration: underline;
+}
 
 .flow_design08 {
   display: flex;
@@ -137,7 +139,7 @@ main {
   font-size: 16px;
 }
 .flow08 > li dl dd ul{
-    margin: 5px 0;
+    margin: 5px 0 15px;
 }
 
 @media screen and (max-width: 1340px) {
