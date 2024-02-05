@@ -89,8 +89,8 @@ main {
     border-bottom: 1px solid #d3d3d3;
 }
 .table_area dl dt{
-    width: 21%;
-    padding: 16px 18px 16px 24px;
+    width: 22%;
+    padding: 20px 16px 20px 22px;
     background-color: #F8F8F8;
     display: flex;
     align-items: center;
@@ -99,8 +99,8 @@ main {
     border-left: 1px solid #D3D3D3;
 }
 .table_area dl dd{
-    width: 79%;
-    padding: 16px 18px 16px 24px;
+    width: 78%;
+    padding: 20px 16px 20px 22px;
     font-size: 16px;
     border-top: 1px solid #D3D3D3;
     border-right: 1px solid #D3D3D3;
@@ -124,14 +124,14 @@ main {
     }
     .table_area dl dt{
         width: 100%;
-        padding: 8px 20px;
+        padding: 10px 20px;
         border-right: 1px solid #D3D3D3;
         line-height: 1.8;
         font-size: 14px;
     }
     .table_area dl dd{
         width: 100%;
-        padding: 10px 20px 11px;
+        padding: 11px 20px 12Zpx;
         border-left: 1px solid #D3D3D3;
         line-height: 1.8;
         border-top: none;
@@ -152,7 +152,7 @@ main {
 }
 
 .contents_box{
-    margin: 40px 0;
+    margin: 40px 0 55px;
 }
 .box_subttl{
     font-size: 17px;

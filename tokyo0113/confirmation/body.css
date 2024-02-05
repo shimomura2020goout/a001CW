@@ -95,6 +95,7 @@ main {
 }
 .box li p:nth-child(1) img{
     max-width: 100%;
+    height: fit-content;
 }
 .box li p:nth-child(2){
     margin-top: 20px;
@@ -113,6 +114,10 @@ main {
 .box li span:nth-child(3):hover{
     box-shadow: none;
 }
+ul.box_text{
+    margin-top: 0;
+    margin-bottom: -8px;
+}
 .box_text span{
     font-size: 14px;
 }
@@ -129,6 +134,7 @@ main {
 }
 .box_ul{
     margin-bottom: 20px;
+    line-height: 2;
 }
 
 

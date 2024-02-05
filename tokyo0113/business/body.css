@@ -101,6 +101,7 @@ main {
 }
 .box li p:nth-child(2){
     margin-top: 20px;
+    font-weight: bold;
 }
 .box li span:nth-child(3){
     display: block;

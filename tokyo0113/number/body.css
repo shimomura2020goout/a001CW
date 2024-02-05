@@ -89,7 +89,7 @@ main {
 .box li{
     width: 48%;
     margin-right: 4%;
-    padding: 23px 30px 33px 30px;
+    padding: 28px 30px 38px 30px;
     text-align: center;
     border: 1px solid #d3d3d3;
 }
@@ -98,6 +98,7 @@ main {
 }
 .box li p:nth-child(1) img{
     max-width: 100%;
+    height: fit-content;
 }
 .box li p:nth-child(2){
     margin-top: 20px;
@@ -153,6 +154,7 @@ main {
 }
 .box050-2 ul li p:nth-child(1) img{
     max-width: 100%;
+    height: fit-content;
 }
 .box050-2 ul li p:nth-child(2) span{
     display: block;
@@ -324,6 +326,7 @@ table .text_m{
 }
 .box03 li > p img{
     max-width: 100%;
+    height: fit-content;
 }
 .box03 li h4{
     margin-bottom: 20px;
