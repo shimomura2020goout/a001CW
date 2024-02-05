@@ -77,7 +77,9 @@ main {
 }
 
 
-
+.ttl_box{
+    margin-top: 37px;
+}
 
 .box{
     display: flex;
@@ -114,24 +116,17 @@ main {
 }
 
 .box_text span{
-    font-size: 12px;
+    font-size: 14px;
 }
 .box050-1{
     display: flex;
     margin-top: 10px;
 }
 .box050-1 p:nth-child(1){
-    width: 50%;
+    width: 100%;
     margin-top: 0;
     margin-right: 5%;
 }
-.box050-1 p:nth-child(2){
-    width: 45%;
-}
-.box050-1 p:nth-child(2) img{
-    max-width: 100%;
-}
-
 .box050-2{
     margin-top: 30px;
     padding: 24px 30px 10px;
@@ -139,7 +134,7 @@ main {
 }
 .box050-2 h4{
     margin-bottom: 16px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 .box050-2 ul{
@@ -167,7 +162,7 @@ main {
 
 .box050-3{
     display: flex;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 .box050-3 li{
     width: 50%;
@@ -210,7 +205,7 @@ main {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-color: #fe6c01;
+    background-color: #01606D;
     z-index: -1;
     right: -69%;
     transform: translateX(-5%);
@@ -220,13 +215,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
+    line-height: 1.9;
 }
 .box050-4 li{
     width: 49%;
     margin-right: 2%;
     margin-bottom: 15px;
     padding: 20px;
-    border: 1px solid #f5a623;
+    border: 1px solid #01606D;
 }
 .box050-4 li:nth-child(2n){
     margin-right: 0;
@@ -234,10 +230,10 @@ main {
 .box050-4 li p:nth-child(1){
     margin-bottom: 8px;
     padding: 0 0 3px 3px;
-    border-bottom: 1px solid #fe6c01;
+    border-bottom: 1px solid #01606D;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #fe6c01;
+    color: #01606D;
 }
 
 .box050-5{
@@ -248,7 +244,7 @@ main {
 }
 .box050-5 li p:nth-child(1){
     width: 21%;
-    padding: 13px 15px;
+    padding: 16px 15px;
     background-color: #f8f8f8;
     display: flex;
     align-items: center;
@@ -259,7 +255,7 @@ main {
 }
 .box050-5 li p:nth-child(2){
     width: 79%;
-    padding: 13px 30px;
+    padding: 16px 30px;
     font-size: 16px;
     border-top: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
@@ -269,26 +265,25 @@ main {
 }
 
 table{
-    margin: 20px 0;
+    margin: 45px 0 20px;
     border-collapse: collapse;
-    line-height: 1.2;
+    line-height: 1.9;
 }
 table th{
-    padding: 10px;
+    padding: 14px 10px;
     border: 1px solid #b0b0b0;
-    background: #ceedfd;
-    color: #002896;
+    background: #EBEBEB;
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
 }
 table th:first-child {
-    width: 20%;
-    min-width: 200px;
+    width: 24%;
+    min-width: 205px;
     font-weight: normal;
 }
 table td{
-    width: 40%;
+    width: 38%;
     padding: 24px 10px;
     border: 1px solid #b0b0b0;
     font-size: 20px;
@@ -303,16 +298,14 @@ table .text_m{
     font-weight: normal;
     color: #000;
 }
-table .text_s{
-    font-size: 12px;
-    font-weight: normal;
-}
 
 .box_text_list{
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.9;
 }
 .box03{
     margin-top: 20px;
+    line-height: 1.9;
 }
 .box03 li{
     display: flex;
@@ -325,6 +318,7 @@ table .text_s{
 }
 .box03 li > p{
     width: 45%;
+    margin-top: 3px;
 }
 .box03 li > p img{
     max-width: 100%;
@@ -416,7 +410,7 @@ table .text_s{
         padding: 16px 25px 20px;
     }
     .box_text span{
-        font-size: 11px;
+        font-size: 12px;
     }
     .box050-1{
         flex-wrap: wrap;
@@ -427,16 +421,12 @@ table .text_s{
         width: 100%;
         margin-top: 8px;
     }
-    .box050-1 p:nth-child(2){
-        width: 100%;
-        margin-top: 8px;
-    }
 
     .box050-2{
         padding: 16px 20px;
     }
     .box050-2 h4{
-        font-size: 14px;
+        font-size: 16px;
     }
     .box050-2 ul{
         flex-wrap: wrap;
@@ -508,8 +498,8 @@ table .text_s{
         font-size: 16px;
     }
     table th:first-child {
-        width: 15%;
-        min-width: 60px;
+        width: 16%;
+        min-width: 62px;
     }
     table td{
         padding: 20px 8px;
@@ -527,7 +517,7 @@ table .text_s{
     }
 
     .box_text_list{
-        font-size: 11px;
+        font-size: 12px;
     }
     .box03 li{
         flex-wrap: wrap;
