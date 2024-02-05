@@ -94,7 +94,7 @@ ul.contents_box li h3{
 }
 .box_img img{
     max-width: 100%;
-    height: 100%;
+    height: fit-content;
 }
 .body_contents{
     margin-bottom: 30px;

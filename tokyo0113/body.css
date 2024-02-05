@@ -253,7 +253,7 @@ line-height: 1.6;
 }
 .sec02 img{
   width: 100%;
-  height: 100%;
+  height: fit-content;
 }
 .sec02 .item_ttl{
   padding-top: 10px;
