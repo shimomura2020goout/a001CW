@@ -2691,7 +2691,8 @@ background: #fff;
   .btn,
   a.btn,
   button.btn {
-    padding: 0.8rem 3.6rem;
+    padding: 0.7rem 3.2rem;
+    font-size: 15px;
   }
 }
 
@@ -3590,7 +3591,8 @@ pc-none sp-none
   background: linear-gradient(#ffffff 0%, #eee 100%);
   border: 1px solid #D8D8D8;
   border-top: 4px solid #27acd9;
-  padding: 15px 20px;
+  padding: 13px 20px;
+  line-height: 1.8;
 }
 .ttl_box {
   margin-bottom: 15px;
@@ -3599,14 +3601,14 @@ pc-none sp-none
   font-weight: bold;
   background: #f7f7f7;
   border: 1px solid #cbcbcb;
-  padding: 8px;
+  padding: 7px 8px;
   border-radius: 3px;
 }
 .ttl_box span{
   display: block;
   border-left: 6px solid #3FCCD8;
-  padding-left: 10px;
-  padding-bottom: 1px;
+  padding: 0px 0 1px 10px;
+  line-height: 1.8;
 }
 .contents_box{
   margin-bottom: 24px;
@@ -3636,7 +3638,7 @@ pc-none sp-none
     padding-top: 32px;
   }
   .contents_ttl{
-    padding: 10px 17px;
+    padding: 9px 17px;
     font-size: 17px;
   }
   .ttl_box{
@@ -3780,6 +3782,9 @@ pankuzu
   .pankuzu__list{
     height: 39px;
     line-height: 41px;
+  }
+  .main_sec_text{
+    font-size: 14px;
   }
 }
 
