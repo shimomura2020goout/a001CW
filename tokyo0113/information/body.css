@@ -145,7 +145,7 @@ main {
 @media (max-width: 768px){
 
     .main_sec_box li{
-        padding: 25px 25px 25px 0;
+        padding: 30px 25px 30px 0;
     }
     .main_sec_box li::after{
         width: 8px;
@@ -153,5 +153,9 @@ main {
     }
     .subcontents{
         margin-bottom: 50px;
+    }
+    .main_sec_box_txt{
+        margin-bottom: 16px;
+        padding-bottom: 16px;
     }
 }
