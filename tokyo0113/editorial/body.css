@@ -479,6 +479,13 @@ margin-top: 60px;
     padding: 16px;
 }
 
+.ttl_text{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.9;
+}
+
 @media (max-width: 768px){
     .box_z ul li{
         width: 100%;
@@ -489,5 +496,9 @@ margin-top: 60px;
     .box_z ul li p:nth-child(2){
         height: auto;
         font-size: 14px;
+    }
+
+    .ttl_text{
+        font-size: 15px;
     }
 }
