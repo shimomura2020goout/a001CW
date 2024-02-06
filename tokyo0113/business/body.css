@@ -250,6 +250,109 @@ main {
     border-bottom: 1px solid #d3d3d3;
 }
 
+.flow_design08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .flow08 {
+    padding-left: 0;
+    line-height: 1.9;
+  }
+  
+  .flow08 > li {
+    list-style-type: none;
+    border-radius: 15px;
+    background: #F4F6FA;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .flow08 > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .flow08 > li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    left: 20px;
+    bottom: -12px;
+    background: url('../img/arrow01.png') center/cover;
+  }
+  
+  .flow08 > li dl {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .flow08 > li dl dt {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    width: 20%;
+    min-width: 7em;
+  }
+  
+  .flow08 > li .icon08 {
+    color: #00AFC8;
+    margin-right: 0.5em;
+  }
+  
+  .flow08 > li dl dd {
+    margin: 0;
+    width: calc(80% - 20px);
+    font-size: 16px;
+  }
+  .flow08 > li dl dd ul{
+      margin: 5px 0;
+      font-size: 14px;
+  }
+
+.table{
+    width: 100%;
+}
+.table th{
+    padding: 12px 10px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #D3D3D3;
+    border-right: none;
+    background-color: #F8F8F8;
+}
+.table td{
+    padding: 24px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+}
+.table th:last-child, .table td:last-child{
+    border-right: 1px solid #D3D3D3;
+}
+
+.table2 li:nth-child(2n-1){
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #F8F8F8;
+    border: 1px solid #d3d3d3;
+}
+.table2 li:nth-child(2n){
+    padding: 15px 30px;
+    font-size: 16px;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+.table2 li:last-child{
+    border-bottom: 1px solid #d3d3d3;
+}
+
 @media screen and (max-width: 1340px) {
 
 }
@@ -331,6 +434,31 @@ main {
         line-height: 1.8;
         border-top: none;
         font-size: 14px;
+    }
+
+    .flow08 > li dl{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+    .flow08 > li dl dt{
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .flow08 > li dl dd{
+        width: 100%;
+    }
+    .flow08 > li:not(:last-child)::after{
+        content: '';
+        position: absolute;
+        width: 23px;
+        height: 22px;
+        left: 50%;
+        bottom: -12px;
+        transform: translateX(-50%);
+        background: url('../img/arrow01.png') center/cover;
     }
 
 }
