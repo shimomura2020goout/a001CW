@@ -242,7 +242,7 @@ border-top: none;
     width: 300px;
     text-align: center;
 	background: #E30000;
-    margin-bottom: 135px;
+    margin-bottom: 90px;
 	padding-bottom: 1px;
 }
 
@@ -273,6 +273,9 @@ border-top: none;
 .item_text span{
     color: #e30000;
 }
+.subcontents{
+    margin-bottom: 60px;
+}
 @media (max-width: 768px){
     .contactscontents-form tr{
         flex-wrap: wrap;
@@ -288,10 +291,13 @@ border-top: none;
         width: 100%;
     }
     .contactscontents-btnbox input{
-        margin-bottom: 90px;
+        margin-bottom: 80px;
         padding-bottom: 2px;
     }
     .pb-text{
         font-size: 15px;
+    }
+    .subcontents{
+        margin-bottom: 50px;
     }
 }

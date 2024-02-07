@@ -115,4 +115,6 @@ main {
 .main_sec_img{
     margin-bottom: 30px;
 }
-
+.main_sec_txt:last-child{
+    margin-bottom: 0;
+}

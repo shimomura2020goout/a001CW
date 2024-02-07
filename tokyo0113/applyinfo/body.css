@@ -89,7 +89,7 @@ main {
 
 .flow08 {
   padding-left: 0;
-  line-height: 1.9;
+  line-height: 2;
 }
 
 .flow08 > li {
@@ -97,7 +97,7 @@ main {
   border-radius: 15px;
   background: #F4F6FA;
   position: relative;
-  padding: 25px 20px;
+  padding: 28px 20px;
 }
 
 .flow08 > li:not(:last-child) {

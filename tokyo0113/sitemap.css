@@ -108,6 +108,7 @@ main {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 0 60px;
+    padding-left: 2px;
 }
 .contents_box{
     width: 46%;

@@ -78,7 +78,7 @@ main {
 
 
 .ttl_box{
-    margin-top: 35px;
+    margin-top: 37px;
 }
 
 .box{
@@ -136,7 +136,7 @@ main {
 }
 
 .box050-2{
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 24px 30px 10px;
     background-color: #eee;
 }
@@ -165,18 +165,19 @@ main {
 }
 .box050-2 ul li p:nth-child(2) span{
     display: block;
-    margin: 15px 0 5px;
+    margin: 20px 0 10px;
     font-weight: bold;
     color: #01606D;
 }
 
 .box050-3{
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .box050-3 li{
     width: 50%;
     padding: 30px 20px;
+    line-height: 2;
     border: 1px solid #ccc;
 }
 .box050-3 li:nth-child(1){
@@ -219,6 +220,9 @@ main {
     z-index: -1;
     right: -69%;
     transform: translateX(-5%);
+}
+.box050-3 li > div p:nth-child(2){
+    font-size: 14px;
 }
 
 .box050-5{
@@ -267,7 +271,7 @@ main {
     border-radius: 15px;
     background: #F4F6FA;
     position: relative;
-    padding: 20px;
+    padding: 24px 20px;
   }
   
   .flow08 > li:not(:last-child) {
@@ -313,6 +317,9 @@ main {
       font-size: 14px;
   }
 
+.table, .table2{
+    margin-top: 25px;
+}
 .table{
     width: 100%;
 }
@@ -337,14 +344,14 @@ main {
 }
 
 .table2 li:nth-child(2n-1){
-    padding: 12px 30px;
+    padding: 15px 30px;
     font-weight: bold;
     font-size: 16px;
     background-color: #F8F8F8;
     border: 1px solid #d3d3d3;
 }
 .table2 li:nth-child(2n){
-    padding: 15px 30px;
+    padding: 18px 30px;
     font-size: 16px;
     border-left: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
@@ -418,6 +425,9 @@ main {
     .box050-3 li:nth-child(1){
         border-right: 1px solid #ccc;
         border-bottom: none;
+    }
+    .box050-3 li > div p:nth-child(2){
+        font-size: 12px;
     }
 
     .box050-5 li{

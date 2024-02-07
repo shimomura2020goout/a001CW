@@ -108,7 +108,8 @@ main {
     display: block;
     background: #0a2d88;
     margin-top: 20px;
-    padding: 8px;
+    padding: 8px 8px 8px;
+    font-size: 14px;
     color: #fff;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
     transition: all 0.3s;
@@ -130,7 +131,7 @@ main {
     margin-right: 5%;
 }
 .box050-2{
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 24px 30px 10px;
     background-color: #eee;
 }
@@ -158,18 +159,19 @@ main {
 }
 .box050-2 ul li p:nth-child(2) span{
     display: block;
-    margin: 15px 0 5px;
+    margin: 20px 0 10px;
     font-weight: bold;
     color: #01606D;
 }
 
 .box050-3{
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .box050-3 li{
     width: 50%;
     padding: 30px 20px;
+    line-height: 2;
     border: 1px solid #ccc;
 }
 .box050-3 li:nth-child(1){
@@ -213,12 +215,15 @@ main {
     right: -69%;
     transform: translateX(-5%);
 }
+.box050-3 li > div p:nth-child(2){
+    font-size: 14px;
+}
 
 .box050-4{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 16px;
-    line-height: 1.9;
+    margin-top: 25px;
+    line-height: 2;
 }
 .box050-4 li{
     width: 49%;
@@ -240,8 +245,8 @@ main {
 }
 
 .box050-5{
-    margin-top: 16px;
-    line-height: 1.9;
+    margin-top: 25px;
+    line-height: 2;
 }
 .box050-5 li{
     display: flex;
@@ -271,7 +276,7 @@ main {
 table{
     margin: 45px 0 20px;
     border-collapse: collapse;
-    line-height: 1.9;
+    line-height: 2;
 }
 table th{
     padding: 14px 10px;
@@ -308,8 +313,8 @@ table .text_m{
     line-height: 2;
 }
 .box03{
-    margin-top: 20px;
-    line-height: 1.9;
+    margin-top: 30px;
+    line-height: 2;
 }
 .box03 li{
     display: flex;
@@ -322,14 +327,14 @@ table .text_m{
 }
 .box03 li > p{
     width: 45%;
-    margin-top: 3px;
+    margin-top: 9px;
 }
 .box03 li > p img{
     max-width: 100%;
     height: fit-content;
 }
 .box03 li h4{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 16px;
     color: #01606D;
     font-weight: bold;
@@ -352,7 +357,7 @@ table .text_m{
     border-radius: 15px;
     background: #F4F6FA;
     position: relative;
-    padding: 20px;
+    padding: 24px 20px;
   }
   
   .flow08 > li:not(:last-child) {
@@ -466,8 +471,6 @@ table .text_m{
     
     .box050-3{
         flex-wrap: wrap;
-        margin-top: 18px;
-        font-size: 15px;
     }
     .box050-3 li{
         width: 100%;

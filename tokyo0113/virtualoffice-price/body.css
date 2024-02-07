@@ -81,6 +81,9 @@ main {
 .table_area{
     margin-top: 20px;
 }
+.table_area:not(:nth-child(2)){
+    margin-top: 25px;
+}
 .table_area dl{
     display: flex;
     line-height: 1.9;
