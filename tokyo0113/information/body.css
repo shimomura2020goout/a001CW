@@ -116,8 +116,7 @@ main {
 
 .main_sec_box li{
     position: relative;
-    padding: 30px 0;
-    border-top: 1px solid #efefef;
+    padding: 20px 0;
 }
 .main_sec_box li::after{
     content: "";
@@ -128,6 +127,9 @@ main {
     width: 11px;
     height: 22px;
     background: url('') center/cover;
+}
+.main_sec_box li:last-child{
+    padding-bottom: 0;
 }
 .main_sec_box_txt{
     margin-left: 0;

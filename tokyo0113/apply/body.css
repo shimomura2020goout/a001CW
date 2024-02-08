@@ -121,10 +121,6 @@ main {
     display: flex;
     align-items: center;
     padding-top: 20px;
-    border-top: 1px solid #f2f4f5;
-}
-.contactscontents-form tr:first-of-type {
-border-top: none;
 }
 
 .contactscontents-form tr:nth-last-of-type(1) {
