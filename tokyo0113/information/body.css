@@ -143,11 +143,14 @@ main {
 .subcontents{
     margin-bottom: 60px;
 }
+.box_text_date{
+    margin-top: -17px;
+}
 
 @media (max-width: 768px){
 
     .main_sec_box li{
-        padding: 30px 0 30px 0;
+        padding: 20px 0;
     }
     .main_sec_box li::after{
         width: 8px;

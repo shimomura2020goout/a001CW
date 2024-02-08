@@ -296,4 +296,7 @@ main {
     .subcontents{
         margin-bottom: 50px;
     }
+    .item_texts{
+        padding-bottom: 10px;
+    }
 }

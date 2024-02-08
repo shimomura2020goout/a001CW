@@ -152,6 +152,9 @@ main {
 }
 @media screen and (max-width: 768px) {
 
+    .flow08 > li .icon08{
+        font-weight: normal;
+    }
     .flow08 > li dl{
         flex-wrap: wrap;
         justify-content: center;
@@ -165,6 +168,7 @@ main {
     }
     .flow08 > li dl dd{
         width: 100%;
+        font-size: 14px;
     }
     .flow08 > li:not(:last-child)::after{
         content: '';

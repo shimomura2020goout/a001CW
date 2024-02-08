@@ -159,6 +159,15 @@ ul.box_text{
         padding: 7px 8px 8px;
         font-size: 14px;
     }
+
+    .box li p:nth-child(1) img{
+        width: 100%;
+        max-width: inherit;
+    }
+
+    .box_ul{
+        font-size: 14px;
+    }
     
 }
 @media screen and (max-width: 550px) {

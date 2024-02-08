@@ -148,6 +148,7 @@ main {
 .box050-2 ul{
     display: flex;
     flex-wrap: wrap;
+    line-height: 2;
 }
 .box050-2 ul li{
     width: 32%;
@@ -172,7 +173,7 @@ main {
 
 .box050-3{
     display: flex;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .box050-3 li{
     width: 50%;
@@ -194,7 +195,7 @@ main {
 .box050-3 li p span{
     display: inline-block;
     margin: -6px 5px 0;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -398,7 +399,7 @@ main {
         width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
-        padding: 10px;
+        padding: 12px 14px;
     }
     .box050-2 ul li:last-child{
         margin-bottom: 0;
@@ -462,6 +463,7 @@ main {
     }
     .flow08 > li dl dd{
         width: 100%;
+        font-size: 14px;
     }
     .flow08 > li:not(:last-child)::after{
         content: '';
@@ -474,6 +476,14 @@ main {
         background: url('../img/arrow01.png') center/cover;
     }
 
+    .table2 li:nth-child(2n-1){
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+    .table2 li:nth-child(2n){
+        padding: 16px 25px;
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 550px) {
 

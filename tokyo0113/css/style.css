@@ -2601,10 +2601,12 @@ Consideration
 }
 .homebtn a{
   text-decoration: underline;
+  font-size: 12px;
 }
 @media (max-width: 768px){
   .bottombnr{
     margin-bottom: 22px;
+    padding: 30px 25px 0;
   }
   .homebtn{
     width: 90%;
@@ -2692,7 +2694,7 @@ background: #fff;
   a.btn,
   button.btn {
     padding: 0.7rem 3.2rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -2995,7 +2997,7 @@ Header
 }
 @media screen and (max-width: 768px) {
   .header {
-    height: 64px;
+    height: 80px;
   }
 
   .header.scrolled {
@@ -3015,11 +3017,20 @@ Header
     padding-left: 0px;
   }
 
+  .header-right{
+    margin-top: 8px;
+  }
+  .header.scrolled .header-right{
+    margin-top: -2px;
+  }
+
   .header-text {
-    display: none;
-    font-size: 0.625rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    max-width: 180px;
+    margin: 10px 0 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .logo-image {
@@ -3155,7 +3166,7 @@ Consideration
   }
 
   .consideration-bottom-text {
-    font-size: 3.2vw;
+    font-size: 3.8vw;
     margin-top: 20px;
   }
   .consideration-bottom-text span {
@@ -3653,7 +3664,11 @@ pc-none sp-none
   }
   .saidbanner .bnr-box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+  }
+  .bnr-box li:first-of-type{
+    margin-bottom: 10px !important;
+    margin-right: 10px;
   }
   .saidbanner img, .main_sec_img img{
     width: 100%;
