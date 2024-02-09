@@ -484,6 +484,13 @@ main {
         padding: 16px 25px;
         font-size: 14px;
     }
+
+    .table_container {
+        overflow-x: auto;
+    }
+    .table_container .table{
+        width: 720px;
+    }
 }
 @media screen and (max-width: 550px) {
 
