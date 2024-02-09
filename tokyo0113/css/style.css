@@ -3814,12 +3814,15 @@ pankuzu
 }
 
 @media (max-width: 768px){
+  main{
+    margin-top: 80px !important;
+  }
   .pankuzu{
     height: 39px;
   }
   .pankuzu__list{
     height: 39px;
-    line-height: 51px;
+    line-height: 39px;
   }
   .main_sec_text{
     font-size: 14px;
